@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #183a4a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin: 50px 0;
+}
+.container{
+    
+    width: 80%;
+    margin: 0 auto;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d88ae;
+}
+.green{
+    background-color: #61d2a4;
+}
+.yellow{
+    background-color: #f9d277;
+}
+.red{
+    background-color: #de5471;
+}
